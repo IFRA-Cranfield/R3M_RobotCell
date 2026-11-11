@@ -4,11 +4,11 @@
 
 This folder contains the ROS 2 packages for the robotic cells at Cranfield University, designed for simulation, motion planning, and real-world deployment.
 
-## ros2_SimRealRobotControl - ROS 2 Package Structure
+## ros2srrc - ROS 2 Package Structure
 
 The ROS 2 package structure follows a modular approach, integrating Gazebo for simulation, MoveIt! 2 for motion planning, and hardware drivers for real robot control. Each package is configured to support different R3M use cases, allowing seamless transition between simulation and real-world execution.
 
-These packages are based on the [ros2_SimRealRobotControl framework](https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl/tree/humble/packages), ensuring compatibility with standardized ROS 2 workflows and launch configurations.
+These packages are based on the [ros2srrc framework](https://github.com/IFRA-Cranfield/ros2srrc/tree/humble/packages), ensuring compatibility with standardized ROS 2 workflows and launch configurations.
 
 ## Cell Configurations & R3M Use-Cases (+ ROS 2 Launch Commands)
 

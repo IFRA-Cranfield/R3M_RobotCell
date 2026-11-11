@@ -98,7 +98,7 @@
       <ul>
         <li><a href="#r3m-research-project">R3M Research Project</a></li>
         <li><a href="#r3m-cell-repository">R3M-Cell Repository</a></li>
-        <li><a href="#ros2_simrealrobotcontrol-repository">ros2_SimRealRobotControl Repository</a></li>
+        <li><a href="#ros2srrc-repository">ros2srrc Repository</a></li>
       </ul>
     </li>
     <li><a href="#documentation">Documentation</a></li>
@@ -136,15 +136,15 @@ This repository includes:
 
 By consolidating these elements, R3M-Cell supports the development of automated, intelligent, and reconfigurable robotic systems that align with the core objectives of the R3M pPoject. This repository plays a crucial role in testing and refining the sim-to-real pipeline, which enables robots to autonomously interpret and execute manufacturing tasks with minimal human intervention.
 
-### ros2_SimRealRobotControl Repository
+### ros2srrc Repository
 
-The ros2_SimRealRobotControl repository has been developed as part of the R3M Project to address the challenges of reconfigurability and generalization in robotic arm programming and control. It provides a standardized framework that ensures modularity, interoperability, and seamless robot integration across different manufacturing setups. R3M-Cell has been developed following the principles and architecture established in ros2_SimRealRobotControl, ensuring that robotic cells at Cranfield University and AMRC-Sheffield can be easily simulated, configured, and adapted for different tasks. By leveraging the modular design of ros2_SimRealRobotControl, R3M-Cell benefits from predefined robot configurations, streamlined motion planning, and simplified deployment, making it a key component in the broader R3M initiative to enable flexible and responsive manufacturing systems.
+The ros2srrc repository has been developed as part of the R3M Project to address the challenges of reconfigurability and generalization in robotic arm programming and control. It provides a standardized framework that ensures modularity, interoperability, and seamless robot integration across different manufacturing setups. R3M-Cell has been developed following the principles and architecture established in ros2srrc, ensuring that robotic cells at Cranfield University and AMRC-Sheffield can be easily simulated, configured, and adapted for different tasks. By leveraging the modular design of ros2srrc, R3M-Cell benefits from predefined robot configurations, streamlined motion planning, and simplified deployment, making it a key component in the broader R3M initiative to enable flexible and responsive manufacturing systems.
 
-The IFRA-Cranfield/ros2_SimRealRobotControl GitHub repository is a comprehensive framework designed to facilitate seamless integration of robots into both simulated and real-world environments using ROS 2. It provides a modular setup that allows for the easy deployment of various robot configurations, along with their corresponding controllers and end-effectors, without needing to redefine core parameters. The repository is built to support multiple robots, such as the ABB IRB-120, by enabling the use of ROS 2 packages that handle simulation, control, and MoveIt!2 for robot motion planning.
+The IFRA-Cranfield/ros2srrc GitHub repository is a comprehensive framework designed to facilitate seamless integration of robots into both simulated and real-world environments using ROS 2. It provides a modular setup that allows for the easy deployment of various robot configurations, along with their corresponding controllers and end-effectors, without needing to redefine core parameters. The repository is built to support multiple robots, such as the ABB IRB-120, by enabling the use of ROS 2 packages that handle simulation, control, and MoveIt!2 for robot motion planning.
 
 This repository is ideal for robotics researchers and developers who want to streamline the process of setting up robot environments for simulation and real-world tasks. It supports both Gazebo-based simulation for testing robot setups and MoveIt!2 for controlling robots in either virtual or physical environments. By organizing key robot and end-effector parameters in a modular way, it offers a flexible approach that makes it easy to switch between different robots, configurations, or tasks, accelerating both development and testing processes in industrial automation, robotics research, and advanced manufacturing systems.
 
-Link to ros2_SimRealRobotControl: https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl
+Link to ros2srrc: https://github.com/IFRA-Cranfield/ros2srrc
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
